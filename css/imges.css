@@ -1,0 +1,38 @@
+.img-left,
+.img-right {
+  width: auto;
+  height: 120px;
+  border-radius: 5px;
+}
+
+.img-left {
+  float: left;
+  margin-right: 10px;
+}
+
+.img-right {
+  float: right;
+  margin-left: 10px;
+}
+
+.img-large {
+  width: auto;
+  height: 220px;
+}
+
+.img-small {
+  margin: 5px;
+  height: 100px;
+  width: auto;
+}
+
+.img-logo {
+  background: url(../images/logo.png) no-repeat;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100% 100%;
+  height: 100px;
+  width: 150px;
+  margin: auto;
+}
