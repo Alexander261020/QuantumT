@@ -64,6 +64,8 @@
 @media (max-width: 750px){
   .part-1-2 {
     width: 99%;
+    min-height: 0px;
+    padding-bottom: 5px;
   }
 }
 
