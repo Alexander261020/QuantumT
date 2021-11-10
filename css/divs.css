@@ -58,6 +58,7 @@
 
 .part-1-2 {
   width: 48%;
+  min-height: 144px;
 }
 
 @media (max-width: 750px){
