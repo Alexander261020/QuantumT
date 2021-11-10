@@ -5,9 +5,20 @@
   position: relative;
 }
 
-.header {
+.header-fon {
   padding: 5px 0 10px 0;
   background: rgb(0, 10, 153);
+}
+
+.header-content {
+  max-width: 550px;
+  margin: auto;
+}
+
+@media (max-width: 500px){
+  .header-content {
+    max-width: 290px;
+  }
 }
 
 .intro {
@@ -16,9 +27,11 @@
   -webkit-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100% 100%;
+  height: 300px;
+  border: 1px solid black;
   margin: 0 0 20px 0;
   color: white;
-  padding: 50px 0 70px 0;
+  padding: 50px 0 0 0;
 }
 
 .wrapper {
@@ -30,17 +43,21 @@
 .item-page {
   position: relative;
   display: inline-block;
-  border-bottom: 2px solid black;
   width: 100%;
   margin-bottom: 10px;
   padding: 5px 0;
 }
 
-.part-1-2{
+.part-1-2, 
+.part-hed-1-2 {
   vertical-align: top;
   display: inline-block;
-  width: 48%;
+  min-width: 22%;
   margin: 5px;
+}
+
+.part-1-2 {
+  width: 48%;
 }
 
 @media (max-width: 750px){
@@ -72,4 +89,8 @@
 .border-2 {
   border-right: 1px solid black;
   border-bottom: 1px solid black;
+}
+
+.border-bottom {
+  border-bottom: 2px solid black;
 }
