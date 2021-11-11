@@ -22,21 +22,10 @@
 }
 
 .intro {
-<<<<<<< HEAD
-  background: url(../images/intro.png) no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 300px;
-  border: 1px solid black;
-  margin: 0 0 15px 0;
-  color: white;
-  padding: 80px 0 0 0;
-=======
   margin: 0 0 20px 0;
   color: white;
   padding: 80px 0;
   height: 40%;
->>>>>>> paralex_scroll
 }
 
 .wrapper {
@@ -102,10 +91,7 @@
 .border-bottom {
   border-bottom: 2px solid black;
 }
-<<<<<<< HEAD
-=======
 
 .height-large {
   height: 400px;
 }
->>>>>>> paralex_scroll
